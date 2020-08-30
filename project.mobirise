@@ -1,0 +1,154 @@
+{
+  "settings": {
+    "name": "Site-08-29_2230",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "Sleek",
+      "title": "Sleek",
+      "styling": {}
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.4",
+    "siteFonts": [],
+    "imageResize": true,
+    "uniqCompNum": 3,
+    "versionPublish": "4.12.4",
+    "screenshot": "screenshot.png",
+    "favicon": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            "&.mbr-navbar--auto-collapse.mbr-navbar--open .mbr-navbar__menu": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">SAMPLE PAGE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-secondary-outline\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Sleek",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a data-app-btn=\"true\" class=\"navbar-brand\" href=\"\" data-app-selector=\".mbr-brand__name a\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sleek</a>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/2.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Welcome to the Sleek",
+          "text": "Lorem ipsum dolor sit amet adipiscing elit curabitur sapien leo consequat sed aliquam at convallis sit amet metus. Vivamus malesuada ex in placerat bibendum, est dui euismod sapien, eget tincidunt nunc ipsum ut mauris.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Purchase Now</a><a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-primary\" href=\"#\">Learn More</a>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 2,
+            "paddingBottom": 0,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/1.png",
+                "active": true,
+                "showText": true,
+                "showCite": true,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "cite": "- John Doe<span>ABC Company</span>",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/2.png",
+                "active": false,
+                "showText": true,
+                "showCite": true,
+                "title": "Slide 2",
+                "contentAlign": "left",
+                "cite": "- Rebecca<span>XYZ Company</span>",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-2"
+        }
+      ]
+    }
+  }
+}
