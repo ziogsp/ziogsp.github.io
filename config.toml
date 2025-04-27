@@ -1,3 +1,17 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://ziogsp.github.io/'
+languageCode = 'ru-ru'
+title = 'Супер Блог'
+theme = "mediumish"
+publishdir = "./public/"
+[[menu.main]]
+    # Отображаемое название раздела
+    name = "Статьи"
+
+    # Вес для сортировки пунктов меню, чем меньше - тем раньше пункт будет отображен
+    weight = 100
+
+    # Идентификатор родителя для вложенных пунктов, не все темы поддерживают вложенность
+    identifier = "blog"
+
+    # Путь до раздела со статьями, соответствует имени папки внутри <OWNER>.github.io/content/
+    url = "/blog"
