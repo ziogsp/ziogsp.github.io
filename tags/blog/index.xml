@@ -6,7 +6,16 @@
     <description>Recent content in blog on Супер Блог</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <lastBuildDate>Wed, 25 Dec 2019 21:32:05 +0300</lastBuildDate><atom:link href="https://ziogsp.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Apr 2025 16:59:39 +0300</lastBuildDate><atom:link href="https://ziogsp.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Десять шагов к личному блогу на Github Pages.</title>
+      <link>https://ziogsp.github.io/blog/second-post/</link>
+      <pubDate>Sun, 27 Apr 2025 16:59:39 +0300</pubDate>
+      
+      <guid>https://ziogsp.github.io/blog/second-post/</guid>
+      <description>Пошаговая инструкция по созданию бесплатного блога или сайта на Github Pages с использованием Hugo для начинающих.</description>
+    </item>
+    
     <item>
       <title>Блог на Github Pages для начинающих</title>
       <link>https://ziogsp.github.io/blog/first-post/</link>
